@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contato.css">
+    <title>Contato</title>
+</head>
+<body>
+    <form action="" method="post">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" required>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="assunto">Assunto</label>
+        <select name="assunto" id="assunto" required>
+            <option>Selecione</option>
+            <option value="duvida">Dúvida</option>
+            <option value="suporte">Suporte</option>
+            <option value="outro">Outro</option>
+        </select>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <footer>
+        <a class="voltar" href="../../index.html">Voltar p/ Home</a>
+    </footer>
+</body>
+</html>
