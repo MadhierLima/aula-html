@@ -42,3 +42,15 @@ button {
 button:hover {
     background-color: #007acc;
 }
+
+.voltar {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #0095f6;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
